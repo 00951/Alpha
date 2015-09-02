@@ -15,9 +15,9 @@ int main()
         while(scanf("%d %d %d", &a, &b, &c)==3){
         cs++;
         if(a<=20 && b<=20 && c<=20)
-            printf("Case %d: good\n");
+            printf("Case %d: good\n",cs);
         else
-            printf("Case %d: bad\n");
+            printf("Case %d: bad\n",cs);
     }
 }
     return 0;
