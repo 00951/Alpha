@@ -31,6 +31,9 @@ int main()
 
 
 /*
+
+http://jwilson.coe.uga.edu/emt725/Medians.Triangle/Area.Medians.Tri.html
+
 Median of a triangle divides the triangle into two equal areas.
 
 Use formula:
