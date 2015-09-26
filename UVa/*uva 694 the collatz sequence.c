@@ -1,4 +1,3 @@
-[code language="cpp"]
 /*
 * GM Arif
 * CSE, Jahangirnagar University
@@ -76,5 +75,3 @@ int main()
     }
     return 0;
 }
-
-[/code]
