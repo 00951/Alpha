@@ -1,6 +1,6 @@
 /*
 * GM Arif
-* CSE, Jhangirnagar University
+* CSE, Jahangirnagar University
 * id: gmarif_online (uva/codeforces/codechef/hackerrank/spoj/topcoder)
 */
 
