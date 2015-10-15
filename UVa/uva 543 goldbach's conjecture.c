@@ -1,3 +1,10 @@
+
+/*
+* GM Arif
+* CSE, Jahangirnagar University
+* id: gmarif_online(uva/codeforces/codechef/hackerrank/spoj/topcoder)
+*/
+
 #include <stdio.h>
 #include <math.h>
 #define MAX 2000000
