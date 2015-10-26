@@ -5,9 +5,7 @@
 */
 
 
-
 Problem: http://codeforces.com/problemset/problem/519/A
-
 
 
 #include <bits/stdc++.h>
