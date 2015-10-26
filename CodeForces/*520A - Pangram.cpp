@@ -8,6 +8,52 @@
 Problem: http://codeforces.com/problemset/problem/520/A
 
 
+
+
+#include <bits/stdc++.h>
+using namespace std;
+
+#include <cstdlib>
+#include <cstring>
+
+typedef long long ll;
+
+
+int main()
+{
+    ll n;
+    cin >> n;
+
+    string s;
+    cin>>s;
+
+    ll a[300];
+
+    memset(a, 0, sizeof a);         //
+
+    for(ll i=0; i<n; i++)
+    {
+        s[i]=tolower(s[i]);     //
+        a[s[i]]++;              //
+    }
+
+    for(ll i=97;i<=122;i++)     //
+    {
+        if(a[i]==0){
+            printf("NO\n");
+            return 0;           //
+        }
+    }
+    printf("YES\n");
+}
+
+
+
+
+//OR...............
+
+
+
 #include <stdio.h>
 #include <string.h>
 
