@@ -3,6 +3,10 @@
 * CSE, Jahangirnagar University
 * id: gmarif_online(uva/codeforces/codechef/hackerrank/spoj/topcoder)
 */
+
+ 
+ Problem: www.spoj.com/problems/TOANDFRO/
+ 
  
 #include<stdio.h>
 #include<string.h>
