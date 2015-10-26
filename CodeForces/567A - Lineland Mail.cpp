@@ -8,6 +8,46 @@
 Problem: http://codeforces.com/problemset/problem/567/A
 
 
+#include <bits/stdc++.h>
+using namespace std;
+
+typedef long long ll;
+
+#define rep(i,a,b) for(int i=a;i<=b;i++)
+#define MX 100007
+
+ll a[MX];
+
+int main()
+{
+    ll n ;
+    scanf("%lld",&n);
+
+    rep(i,1,n){
+        scanf("%lld",a+i);
+    }
+
+
+    rep(i,1,n){
+
+        if(i==1)
+            printf("%lld %lld\n",a[2]-a[1] , a[n] - a[1] );
+        else if(i==n)
+            printf("%lld %lld\n",a[n]-a[n-1] , a[n] - a[1] );
+        else
+            printf("%lld %lld\n", min(a[i]-a[i-1],a[i+1]-a[i]) , max(a[i]-a[1] , a[n] - a[i]) );
+    }
+
+
+    return 0;
+}
+
+
+
+
+//OR...............
+
+
 
 #include <stdio.h>
 
