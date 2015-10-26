@@ -1,3 +1,12 @@
+/*
+* GM Arif
+* CSE, Jahangirnagar University
+* id: gmarif_online(uva/codeforces/codechef/hackerrank/spoj/topcoder)
+*/
+
+Problem: http://codeforces.com/problemset/problem/25/A
+
+
 #include <stdio.h>
 
 int main()
@@ -13,13 +22,11 @@ int main()
             if(arr[i]%2==0){
                 jor=i;
                 a++;
-              //printf("jor %lld  pos= %lld\n", arr[i], jor);
             }
 
             else{
                 bijor=i;
                 b++;
-               //printf("bijor %lld  pos= %lld\n", arr[i], bijor);
             }
 
         }
