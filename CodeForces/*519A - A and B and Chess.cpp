@@ -10,6 +10,62 @@ Problem: http://codeforces.com/problemset/problem/519/A
 
 
 
+#include <bits/stdc++.h>
+using namespace std;
+
+typedef long long ll;
+#include <cstring>
+#define rep(i,a,b) for(int i=a;i<=b;i++)
+
+int main()
+{
+    char s[50];
+    //string s;
+    
+    int b=0, w=0;
+
+    rep(j,1,8){           
+
+        scanf("%s",s+1);       //store char from index 1
+        // cin >> s;
+
+        rep(i,1,8){          // rep(i,1,8) => s+1
+
+            if(s[i]=='Q') w += 9;
+            if(s[i]=='R') w += 5;
+            if(s[i]=='B') w += 3;
+            if(s[i]=='N') w += 3;
+            if(s[i]=='P') w += 1;
+
+            if(s[i]=='q') b += 9;
+            if(s[i]=='r') b += 5;
+            if(s[i]=='b') b += 3;
+            if(s[i]=='n') b += 3;
+            if(s[i]=='p') b += 1;
+        }
+        
+    }
+
+    if(w==b)
+        cout<<"Draw"<<endl;
+    else if(w > b)
+        cout<<"White"<<endl;
+    else
+        cout<<"Black"<<endl;
+   
+   // main();
+
+    return 0;
+}
+
+
+
+
+//OR...........
+
+
+
+
 #include <stdio.h>
 #include <string.h>
 
