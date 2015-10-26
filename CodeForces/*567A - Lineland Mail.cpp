@@ -21,21 +21,21 @@ ll a[MX];
 int main()
 {
     ll n ;
-    scanf("%lld",&n);
+    scanf("%I64d",&n);
 
     rep(i,1,n){
-        scanf("%lld",a+i);
+        scanf("%I64d",a+i);
     }
 
 
     rep(i,1,n){
 
         if(i==1)
-            printf("%lld %lld\n",a[2]-a[1] , a[n] - a[1] );
+            printf("%I64d %I64d\n",a[2]-a[1] , a[n] - a[1] );
         else if(i==n)
-            printf("%lld %lld\n",a[n]-a[n-1] , a[n] - a[1] );
+            printf("%I64d %I64d\n",a[n]-a[n-1] , a[n] - a[1] );
         else
-            printf("%lld %lld\n", min(a[i]-a[i-1],a[i+1]-a[i]) , max(a[i]-a[1] , a[n] - a[i]) );
+            printf("%I64d %I64d\n", min(a[i]-a[i-1],a[i+1]-a[i]) , max(a[i]-a[1] , a[n] - a[i]) );
     }
 
 
