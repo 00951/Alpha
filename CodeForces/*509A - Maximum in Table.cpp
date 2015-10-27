@@ -5,7 +5,7 @@
 */
 
 
-Problem: http://codeforces.com/problemset/problem/519/A
+Problem: http://codeforces.com/problemset/problem/509/A
 
 
 #include <bits/stdc++.h>
@@ -29,10 +29,10 @@ int main()
         
         rep(j,1,n)
         {
-            if(i == 1 || j == 1)
-                arr[i][j] = 1;
+            if(i == 1 || j == 1)       //
+                arr[i][j] = 1;         //
             else
-                arr[i][j] = arr[i][j - 1] + arr[i- 1][j];
+                arr[i][j] = arr[i][j - 1] + arr[i- 1][j];     //
         }
     }
         
