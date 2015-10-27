@@ -26,7 +26,7 @@ int main()
     
     sort(a,a+n);       // just sort and get the minimum of whole array... not necessary to loop through for the min
     
-    for(i=1;i<n;i++){
+    for(i=1;i<n;i++){ 
         if(a[i]%a[0]!=0){
             cout << -1 << endl;
             return 0;       // no break, just return 0
