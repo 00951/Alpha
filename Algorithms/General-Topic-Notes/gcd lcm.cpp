@@ -6,11 +6,15 @@ GCD(a,b,c) = GCD(GCD(a,b),c)
 Euclidean GCD Algorithm
 
     int gcd(a, b) {
+        
+        if(a>b) swap(a,b);
+        
         while (b != 0) {
             t = b;
             b = a % b; \\ a mod b
             a = t;
         }
+        
         return a;
     }
 
@@ -19,6 +23,9 @@ Euclidean GCD Algorithm
 GCD Recursive version  
 
     int gcd(a, b) {
+        
+        if(a>b) swap(a,b);
+        
         if (b = 0) 
             return a;
         else
