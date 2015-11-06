@@ -3,6 +3,28 @@ The GCD of more than two numbers can be calculated as
 GCD(a,b,c) = GCD(GCD(a,b),c)
 
 
+
+Normal GCD Algorithm
+
+int main()
+{
+  scanf("%d %d", &num1, &num2);
+  min=(num1>num2)?num2:num1;
+  
+  for(i=min;i>=1;--i)
+  {
+      if(num1%i==0 && num2%i==0)
+      {
+          printf("HCF of %d and %d is %d", num1, num2,i);
+           break;
+      }
+  }
+  return 0;
+}
+
+
+
+
 Euclidean GCD Algorithm
 
     int gcd(a, b) {
@@ -17,6 +39,7 @@ Euclidean GCD Algorithm
         
         return a;
     }
+
 
 
 
