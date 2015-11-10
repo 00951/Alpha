@@ -3,6 +3,11 @@
 numdigit= (n>0) ? (int) log10 ((double) n) + 1 : 1;
 
 
+***// Equality check for pow function
+
+if(ceil(pow(5,2))==25)
+    cout << "Same" << endl;
+
 
 ***// A Recursive Function to return 10 for input 1, to return 100 for input 2 & to return 1000 for 3
 
