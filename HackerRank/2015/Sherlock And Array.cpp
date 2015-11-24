@@ -26,8 +26,8 @@ int main()
         {
             sl = sum[i-1] - sum[0]; //sum of 0 to i-1 -> sum[r] - sum[l-1]
             sr = sum[n] - sum[i]; // sum of i+1 to n
-                                    // cout <<sl << " " << sr << endl;
-            if(sl==sr)
+                                    
+            if(sl==sr)          // cout <<sl << " " << sr << endl;
             {
                 flg=1;
                 break;
