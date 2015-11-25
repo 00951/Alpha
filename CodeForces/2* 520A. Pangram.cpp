@@ -1,12 +1,11 @@
 /*
-* GM Arif
+* GM Arif Shuvo
 * CSE, Jahangirnagar University
-* id: gmarif_online(uva/codeforces/codechef/hackerrank/spoj/topcoder)
+* id: aarif_shuvo(uva/codeforces/codechef/hackerrank/spoj/topcoder)
 */
 
 
 Problem: http://codeforces.com/problemset/problem/520/A
-
 
 
 
