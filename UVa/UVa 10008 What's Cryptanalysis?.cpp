@@ -1,3 +1,10 @@
+/*
+* GM Arif Shuvo
+* CSE, Jahangirnagar University
+* id: aarif_shuvo(uva/codeforces/codechef/hackerrank/spoj/topcoder)
+*/
+
+
 #include <bits/stdc++.h>
 using namespace std;
 
