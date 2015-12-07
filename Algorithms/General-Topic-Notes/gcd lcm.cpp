@@ -1,17 +1,29 @@
-The GCD of more than two numbers can be calculated as
-
-GCD(a,b,c) = GCD(GCD(a,b),c)
-
-
-
-Normal GCD Algorithm
-
-int main()
+int gcd(int a, int b)
 {
-  scanf("%d %d", &num1, &num2);
-  min=(num1>num2)?num2:num1;
+    if (b==0) 
+        return a;
+        
+    return gcd(b,a%b);
+}
+
+-------------------------------------------------
+
+int lcm(int a, int b)
+{
+    return (b*a)/gcd(a,b);
+}
+
+-------------------------------------------------
+
+The GCD of more than two numbers: -> gcd(a,b,c) = gcd(gcd(a,b),c)
+
+--------------------------------------------------
+
+int gcd_slow(int num1, int num2){
   
-  for(i=min;i>=1;--i)
+  int mn=min(num1,num2);
+  
+  for(i=mn;i>=1;--i)
   {
       if(num1%i==0 && num2%i==0)
       {
@@ -19,38 +31,4 @@ int main()
            break;
       }
   }
-  return 0;
 }
-
-
-
-
-Euclidean GCD Algorithm
-
-    int gcd(a, b) {
-        
-        if(a>b) swap(a,b);
-        
-        while (b != 0) {
-            t = b;
-            b = a % b; \\ a mod b
-            a = t;
-        }
-        
-        return a;
-    }
-
-
-
-
-GCD Recursive version  
-
-    int gcd(a, b) {
-        
-        if(a>b) swap(a,b);
-        
-        if (b == 0) 
-            return a;
-        else
-            return gcd(b, a % b);
-    }
