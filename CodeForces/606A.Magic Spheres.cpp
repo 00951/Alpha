@@ -6,7 +6,6 @@ typedef long long LL;
 #define rep(i,a,b) for(int i=a;i<=b;i++)
 #define rev(i,a,b) for(int i=a;i>=b;i--)
 
-
 int main()
 {
     LL x1,y1,z1,x2,y2,z2;
