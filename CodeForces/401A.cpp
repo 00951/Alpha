@@ -34,7 +34,7 @@ int main()
             s+=a[i];
         }
         s=abs(s);
-        prnt1(s/x+(s%x>0));   //****
+        prnt1(s/x+(s%x>0));   //****prnt1(s/x+(s%x>0)); s%x>0?
 
     }
     return 0;
