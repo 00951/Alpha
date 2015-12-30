@@ -2,8 +2,6 @@ LL bsearch(LL f,LL l,LL a[],LL x)
 {
     LL ps;
     
-    if(x<a[0] || x>a[l]) return -1;
-    
     while(f<=l)
     {
         LL md=(f+l)/2;
@@ -14,7 +12,7 @@ LL bsearch(LL f,LL l,LL a[],LL x)
         else
             l=md-1;
     }
-    return 0;
+    return -1;
 }
 
 
