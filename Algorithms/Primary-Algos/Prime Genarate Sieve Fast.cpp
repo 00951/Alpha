@@ -1,3 +1,4 @@
+int MX = 1234567
 int primes[7000];
 bool a[60000];
 
@@ -23,4 +24,10 @@ int primeGen(int n)
         }
     }
     return j-1;
+}
+
+int main()
+{
+    int prm_lim=primeGen(sqrt(MX+100));
+    
 }
