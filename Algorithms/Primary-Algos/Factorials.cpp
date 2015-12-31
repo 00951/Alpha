@@ -27,7 +27,7 @@ int main()
                 m++;
             }
         }
-        a[m] = '';
+        a[m] = '\0';
         for(j=m-1; j>=0; j--)
         {
             printf("%d", a[j]);
