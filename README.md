@@ -1,2 +1,1 @@
-# Competitive-Programming-Repo
-competitive programming problems available....
+Competitive-Programming-Repo @@ Competitive Programming ~ The Story of a Coder
