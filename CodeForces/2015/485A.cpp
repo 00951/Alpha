@@ -23,27 +23,3 @@ int main()
     char s[MX];
     LL i,j,k,n;
 
-    while(cin>>n){
-
-        gets(s);
-        LL l=strlen(s);
-
-        if(s[l-1]=='k'){
-
-             if(n==5 || n==6) prnt1(53);
-             else prnt1(52);
-
-        }
-        else if(s[l-1]=='h'){
-
-            if(n==31) prnt1(7);
-            else if(n==30) prnt1(11);
-            else if(n==29) prnt1(12);
-            else prnt1(12);
-
-        }
-
-        }
-
-    return 0;
-}
