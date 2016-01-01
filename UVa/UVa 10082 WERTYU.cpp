@@ -4,13 +4,40 @@
 * id: aarif_shuvo(uva/codeforces/codechef/hackerrank/spoj/topcoder)
 */
 
+
 #include <bits/stdc++.h>
 using namespace std;
 
-typedef long long LL;
-#define MAX 1234
-#define rep(i,a,b) for(int i=a;i<=b;i++)
-#define rev(i,a,b) for(int i=a;i>=b;i--)
+#define LL long long
+#define MX 1234
+
+int main()
+{
+    char s[]="`1234567890-=QWERTYUIOP[]ASDFGHJKL;'\ZXCVBNM,./";
+    char str[MX];
+
+    while(gets(str)){
+        for(int i=0; str[i]; i++){
+            for(int j=0; s[j]; j++){
+                if(str[i]==' ' || str[i]=='Z' || str[i]=='A' || str[i]=='Q' || str[i]=='`') {
+                    printf("%c", str[i]);
+                    break;
+                }
+                else if(str[i]==s[j]){
+                    printf("%c", s[j-1]);
+                    break;
+                }
+            }
+        }
+        puts("");
+    }
+
+
+    return 0;
+}
+
+
+--------------------
 
 
 int main()
