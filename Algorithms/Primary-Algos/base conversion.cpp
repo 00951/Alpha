@@ -2,33 +2,29 @@
 
 int decimal_binary(int n)  
 {
-    int rem, i=1, binary=0;
+    int rem, i=1, bin=0;
     while (n!=0)
     {
-        rem=n%2;
         n/=2;
-        binary+=rem*i;
-        i*=10;
+        bin += n%2 * (i*=10);
+        //i*=10;
     }
-    return binary;
+    return bin;
 }
 
 
 
 /* Function to convert binary to decimal.*/
 
-int binary_decimal(int n) 
-
+LL binary_decimal(LL n)
 {
-    int decimal=0, i=0, rem;
+    LL dec=0, i=0;
     while (n!=0)
     {
-        rem = n%10;
         n/=10;
-        decimal += rem*pow(2,i);
-        ++i;
+        dec += n%10 * pow(2,i++);
     }
-    return decimal;
+    return dec;
 }
 
 
