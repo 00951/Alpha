@@ -1,8 +1,10 @@
-/*
-* GM Arif
-* CSE, Jahangirnagar University
-* id: gmarif_online(uva/codeforces/codechef/hackerrank/spoj/topcoder)
-*/
+/******************************************************************
+***                                                             ***
+***   Author     : GM Arif Shuvo                                ***
+***   University : CSE, Jahangirnagar University                ***
+***   Handle     : aarif_shuvo (codeforces/topcoder/codechef)   ***
+***                                                             ***
+******************************************************************/
  
  
 #include <stdio.h>
