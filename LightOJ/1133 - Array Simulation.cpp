@@ -17,7 +17,7 @@
 #define READ(filename) freopen(filename, "r", stdin);
 #define WRITE(filename) freopen(filename, "w", stdout);
 #define hi printf("Hello World!\n")
-#define ndl printf("\n")*/
+#define ndl printf("\n")
 using namespace std;
 
 #define MX 1234
