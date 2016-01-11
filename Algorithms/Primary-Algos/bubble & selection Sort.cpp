@@ -1,26 +1,25 @@
-/*
-* GM Arif
-* CSE, Jahangirnagar University
-* id: gmarif_online(uva/codeforces/codechef/hackerrank/spoj/topcoder)
-*/
-
-
-
-// Selection Sort (Ascending)
+// Buble Sort (Adjecent Cell)
 
 for(i=1; i<=n-1; i++){
     for(j=n; j>i ; j--){
-          if(arr[j]<arr[j-1]){
-              temp=arr[j];
-              arr[j]=arr[j-1];
-              arr[j-1]=temp;
-          }
+          if(arr[j]<arr[j-1])
+             swap(a[j],a[j-1]);
       }
   }
         
         
         
-  // Bubble Sort (Ascending)
+  // Selection Sort (Not Adjecent)
+  
+  for(i=0; i<n; i++){
+      for(j=i+1; j<n; j++){
+          if(a[i]>a[j])
+            swap(a[i],a[j]);
+      }
+  }
+  
+  
+  // xtra adjecent .. dorkar nai.. surute bubble sort
   
   for(i=0; i<n-1; i++){
       for(j=i+1; j<n; j++){
@@ -28,6 +27,6 @@ for(i=1; i<=n-1; i++){
               temp=arr[j];
               arr[j]=arr[j-1];
               arr[j-1]=temp;
-          }
-      }
-  }
+           }
+       }
+    }
