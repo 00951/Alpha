@@ -1,10 +1,4 @@
-/******************************************************************
-***                                                             ***
-***   Author     : GM Arif Shuvo                                ***
-***   University : CSE, Jahangirnagar University(44)            ***
-***   Handle     : aarif_shuvo (codeforces/topcoder/codechef)   ***
-***                                                             ***
-******************************************************************/
+/* xor555 */
 
 #include <bits/stdc++.h>
 #define sc(x) scanf("%d",&x)
