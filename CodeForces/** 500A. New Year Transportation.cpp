@@ -1,9 +1,4 @@
-/*
-* GM Arif
-* CSE, Jahangirnagar University
-* id: gmarif_online(uva/codeforces/codechef/hackerrank/spoj/topcoder)
-*/
-
+/* xor555 */
 
 
 Problem: http://codeforces.com/problemset/problem/500/A
