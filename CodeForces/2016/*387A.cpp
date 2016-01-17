@@ -1,10 +1,4 @@
-/************************************************************
-***                                                       ***
-***   Author     : GM Arif Shuvo                          ***
-***   University : CSE, Jahangirnagar University          ***
-***   Handle     : aarif_shuvo (codeforces/topcoder)      ***
-***                                                       ***
-************************************************************/
+/* xor555 */
 
 #include <bits/stdc++.h>
 #define LL  long long
