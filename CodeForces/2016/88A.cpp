@@ -49,9 +49,8 @@ int main()
     cin>>a>>b>>c;
 
     VI v(3);
-    v[0]=find(a);
-    v[1]=find(b);
-    v[2]=find(c);
+    
+    v[0]=find(a);v[1]=find(b);v[2]=find(c);
 
     sort(ALL(v));
 
@@ -61,9 +60,10 @@ int main()
 
     //permute nd calc
     do{
-        int x=v[1]-v[0];
+        int x=v[1]-v[0];        //assign the chord values to vector for nxt permutation
         int y=v[2]-v[1];
-        if(x<0) x+=12;
+       
+        if(x<0) x+=12;          // add 12 if <0 , like any other modular cyclic values
         if(y<0) y+=12;
 
         if(x==3 and y==4) mnr=1;
