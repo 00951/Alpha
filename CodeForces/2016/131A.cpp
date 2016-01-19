@@ -47,7 +47,7 @@ int main()
     string s;
     cin>>s;
     int u=0;
-    REP(i,SZ(s))
+    REP(i,SZ(s))        //just reverse the caps lock action when its accidently typed according to the condns.
     {
         if(isupper(s[i])) u++;
     }
