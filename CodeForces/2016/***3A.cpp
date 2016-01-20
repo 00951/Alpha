@@ -63,6 +63,10 @@ int main()
     xdi = xd - 'a' + 1;    // a=1,b=2,c=3,d=4....
 
     printf("%d\n", max(abs(xd - xs), abs(yd - ys)));  //move! how???
+    // suppose we dont know this frmula, then what ?
+    // then, until we get xdf==0 or ydf==0, we can strore all the res strings in a vector.
+    // finally, print the vec size and print all the elements of the vector
+    
 
     // chess buddy, you often need xdf && ydf :D
     int xdf = xdi - xsi;
