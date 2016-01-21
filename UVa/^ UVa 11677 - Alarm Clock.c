@@ -1,9 +1,3 @@
-/*
-* GM Arif
-* CSE, Jahangirnagar University
-* id: gmarif_online (uva/codeforces/codechef/hackerrank/spoj/topcoder)
-*/
-
 #include <stdio.h>
 
 int main()
