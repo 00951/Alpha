@@ -1,12 +1,3 @@
-/*
-* GM Arif Shuvo
-* CSE, Jahangirnagar University
-* id: aarif_shuvo(uva/codeforces/codechef/hackerrank/spoj/topcoder)
-*/
-
-
-Problem: http://codeforces.com/problemset/problem/509/A
-
 
 #include <bits/stdc++.h>
 using namespace std;
