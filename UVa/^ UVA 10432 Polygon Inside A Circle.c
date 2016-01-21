@@ -1,10 +1,3 @@
-/*
-* GM Arif Shuvo
-* CSE, Jahangirnagar University
-* id: aarif_shuvo(uva/codeforces/codechef/hackerrank/spoj/topcoder)
-*/
-
-	
 #include <stdio.h>
 #include <math.h>
 #define pi 2 * acos (0)
