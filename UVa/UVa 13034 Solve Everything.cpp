@@ -1,8 +1,3 @@
-/*
-* GM Ariful Islam
-* CSE, Jahangirnagar University(44)
-*/
-
 #include <bits/stdc++.h>
 using namespace std;
 #define LL  long long
