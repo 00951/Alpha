@@ -1,6 +1,3 @@
-/* xor555 */
-
-
 
 #include <bits/stdc++.h>
 #define LL  long long
